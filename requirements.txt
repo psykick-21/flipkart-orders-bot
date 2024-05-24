@@ -1,0 +1,11 @@
+pandas
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-openai
+langchainhub
+langgraph
+langsmith
+playwright
+python-dotenv
