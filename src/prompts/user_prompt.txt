@@ -14,8 +14,8 @@ While scrolling down, keep on adding the product details in your response, so th
 1. Give the control to the user when you have successfully navigated to the login page. DO NOT try to login yourself
 2. Once the orders are extracted, remember to call the OutputOrders function before ending the task.
 3. While scrolling down to extract the order details, scroll down to the bottom of the page. DO NOT end midway, else you will miss some orders.
-4. Remember to close any useless pop-ups
-5. FOLLOW ALL THE STEPS. DO NOT END BEFORE ACHIEVING THE COMPLETION. IF YOU HAVE ANY DOUBTS, ASK THE USER.
+4. FOLLOW ALL THE STEPS. DO NOT END BEFORE ACHIEVING THE COMPLETION. IF YOU HAVE ANY DOUBTS, ASK THE USER.
+5. While scrolling the orders page, MAKE SURE to scroll to the bottom to extract the details of all the orders..
 
 Before saving the outputs, do not forget to remove duplicate items.
 

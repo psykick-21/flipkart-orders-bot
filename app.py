@@ -22,7 +22,12 @@ async def main():
 
     user_input = read_file("src/prompts/user_prompt.txt")
 
-    await call_agent(user_input, page, graph, max_steps=100)
+    await call_agent(user_input, page, graph, max_steps=300)
+
+    close_browser = input("Close the browser? (y/n): ")
+    if close_browser:
+        await page.close()
+        await browser.close()
 
 if __name__=="__main__":
     asyncio.run(main())
