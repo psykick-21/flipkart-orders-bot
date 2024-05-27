@@ -16,6 +16,11 @@ One of the dependencies of this project is Playwright. Once it is install using 
 
 Setup the OPENAI_API_KEY and LANGCHAIN_API_KEY in the .env file.
 
+## Running the Agent
+
+Run the `app.py` file in the terminal from the project directory.<br>
+One human intervention is needed to login to the Flipkart website. Reason for it is given in the challenges section of the documentation.
+
 ---
 Detailed documentation including the overview, system design and diagrams can be found [here](https://docs.google.com/document/d/12VsqgyVd4iGvve78hKvJRbq5BtOAQOSOXXqgtVt4xdk/edit#heading=h.12y46exap77x)
 
