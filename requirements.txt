@@ -9,3 +9,4 @@ langgraph
 langsmith
 playwright
 python-dotenv
+bs4
