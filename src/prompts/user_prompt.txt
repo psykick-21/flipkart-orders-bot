@@ -3,11 +3,11 @@ I need to extract details about all the orders I have placed on flipkart. Please
 2. Go to the login page
 3. Give the control back to the user to perform the login
 4. Navigate to the orders page
-5. Extract the details of each order
+5. Extract the details of each order (all the orders may not be visible at once. You may need to perform multiple scroll downs to load and see all the orders)
 6. Save the orders (Call the OutputOrders function for this)
-7. End the task (Reply with 'COMPLETED' when the task is done)
+7. End the task
 
-All the orders might not be visible on the same page. So remember to scroll down on the window to see more orders. Once you reach the end of the page, you will see a text "No More Results To Display" at the bottom of the page, this is when you can stop scrolling.
+Keep in mind that all the orders might not be visible at once. So remember to scroll down multiple times on the window to see more orders. Once you reach the end of the page, you will see a text "No More Results To Display" at the bottom of the page, this is when you can stop scrolling. Do not stop scrolling before you see "No More Results To Display".
 While scrolling down, keep on adding the product details in your response, so that you do not forget which products were present on the top.
 
 **STRICT GUIDELINES**
@@ -15,7 +15,7 @@ While scrolling down, keep on adding the product details in your response, so th
 2. Once the orders are extracted, remember to call the OutputOrders function before ending the task.
 3. While scrolling down to extract the order details, scroll down to the bottom of the page. DO NOT end midway, else you will miss some orders.
 4. FOLLOW ALL THE STEPS. DO NOT END BEFORE ACHIEVING THE COMPLETION. IF YOU HAVE ANY DOUBTS, ASK THE USER.
-5. While scrolling the orders page, MAKE SURE to scroll to the bottom to extract the details of all the orders..
+5. While scrolling the orders page, MAKE SURE to scroll to the bottom of the page to extract the details of all the orders.
 
 Before saving the outputs, do not forget to remove duplicate items.
 

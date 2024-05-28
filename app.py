@@ -16,7 +16,7 @@ graph = build_flipkart_scraper_graph()
 async def main():
 
     browser = await async_playwright().start()
-    browser = await browser.chromium.launch(headless=False, args=None)
+    browser = await browser.firefox.launch(headless=False, args=None)
     page = await browser.new_page()
     _ = await page.goto("https://www.google.com")
 
