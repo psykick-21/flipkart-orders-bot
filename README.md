@@ -24,5 +24,5 @@ One human intervention is needed to login to the Flipkart website. Reason for it
 ---
 Detailed documentation including the overview, system design and diagrams can be found [here](https://docs.google.com/document/d/12VsqgyVd4iGvve78hKvJRbq5BtOAQOSOXXqgtVt4xdk/edit#heading=h.12y46exap77x)
 
->**The orders extracted by the AI Agent can be seen in the `flipkart-orders.json` file.**
+>**The orders extracted by the AI Agent can be seen in the `orders.json` file.**
 
